@@ -212,6 +212,11 @@
       filter: brightness(0.7);
     }
     .card-rag:hover::before { filter: brightness(0.85); }
+    .card-atelier::before {
+      background: linear-gradient(135deg, #1c0a2e 0%, #5c2076 45%, #9b4a00 100%);
+      filter: brightness(0.65);
+    }
+    .card-atelier:hover::before { filter: brightness(0.85); }
 
     /* 影像 */
     .category-header { display: flex; align-items: center; margin-top: 4rem; margin-bottom: 3rem; gap: 1.5rem; }
@@ -612,6 +617,18 @@
           <span>双语检索</span>
         </div>
         <span class="live-indicator" data-zh="此刻正在运行" data-en="Live · You're using it now">此刻正在运行</span>
+      </a>
+
+      <a href="https://github.com/YinghanMa0110/atelier" class="project-card card-atelier">
+        <div class="project-tag">AI / Generative Art</div>
+        <h3 data-zh="Atelier — AI 画室" data-en="Atelier — AI Painting Studio">Atelier — AI 画室</h3>
+        <p data-zh="为照片穿上大师画风。自训练 Van Gogh LoRA（17 幅原作）与 Monet LoRA（16 幅原作）；Warhol 丝网印刷效果由纯手写算法还原,不含生成式 AI。"
+           data-en="Photographs painted in the style of the masters. Custom Van Gogh LoRA (17 originals) and Monet LoRA (16 originals); Warhol silkscreen rendered entirely by hand-coded algorithm — no generative AI.">为照片穿上大师画风。自训练 Van Gogh LoRA（17 幅原作）与 Monet LoRA（16 幅原作）；Warhol 丝网印刷效果由纯手写算法还原,不含生成式 AI。</p>
+        <div class="project-chips">
+          <span>Next.js 14</span>
+          <span>Flux + Replicate</span>
+          <span>LoRA 自训练</span>
+        </div>
       </a>
 
       <a href="https://github.com/Michaelmayinghan/Automatic-Badminton-Launcher" class="project-card card-badminton">
